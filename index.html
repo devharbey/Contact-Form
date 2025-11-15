@@ -8,14 +8,37 @@
 </head>
 <body>
     <div class="contact-form">
-
         <h1>Contact Us</h1>
-
         <form class="form-container">
             <div class="form-item">
-                <label for="FirstName">First Name <span class="required-input">*</span> </label>
-                <input type="text">
+                <label for="firstname">First Name <span class="required-input">*</span> </label>
+                <input type="text" name="firstname" class="firstname">
+                <p class="form-alert">This field is required</p>
             </div>
+
+            <div class="form-item">
+                <label for="lastname">Last Name <span class="required-input">*</span> </label>
+                <input type="text" name="lastname" class="lastname">
+                <p class="form-alert">This field is required</p>
+            </div>
+
+            <div class="form-item">
+                <label for="email">Email Address <span class="required-input">*</span> </label>
+                <input type="email" name="email" class="email">
+                <p class="form-alert">Enter a valid email address</p>
+            </div>
+            
+            <div class="form-item">
+                <label for="query-type">Query Type <span class="required-input">*</span> </label>
+                
+                <div class="radio-inputs">
+                    <input type="radio">
+                    <label for="general-enquiry">General Enquiry</label>
+                </div>
+            </div>
+
+
+
 
         </form>
         
