@@ -36,19 +36,27 @@ body{
     width: 100%;
  }
 
+ .form-item {
+   width: 100%;
+   margin-bottom: 1rem;
+ }
+
 
  .name {
-    /* display: flex; */
+    display: flex;
     gap: 10px;
  }
 
  .radio-inputs {
     border: 1px solid green;
-    padding: .4rem .75rem;
+    padding: .3rem .5rem;
     gap: 10px;
-    border-radius: .3rem;
+    border-radius: .3rem; 
+    display: flex;
+    margin-top: .5rem;
  }
-
- .radio-inputs:has (input[type='radio']):checked {
-    
+ 
+ .radios {
+   display: flex;
+   gap: 10px;
  }
